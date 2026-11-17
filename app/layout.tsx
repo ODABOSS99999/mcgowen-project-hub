@@ -12,7 +12,7 @@ const instrument = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'McGowen Works — Owen McGowan',
+  title: 'McGowen Works | Owen McGowan',
   description:
     'Project hub for Owen McGowan: Mechanical Engineering student at UT Dallas, web project builder, and concert photographer as McGowen Media.',
   icons: {

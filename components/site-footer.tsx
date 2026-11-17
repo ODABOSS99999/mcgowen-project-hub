@@ -33,7 +33,7 @@ export function SiteFooter() {
           ))}
         </ul>
         <div className="mt-16 flex flex-col gap-2 text-sm text-background/60 md:flex-row md:justify-between">
-          <p>McGowen Works — Owen McGowan</p>
+          <p>McGowen Works | Owen McGowan</p>
           <a href="#top" className="w-fit underline-offset-4 hover:text-background hover:underline">
             Back to top
           </a>
