@@ -3,6 +3,11 @@ import { ArrowUpRight } from 'lucide-react'
 const links = [
   { label: 'GitHub', handle: 'ODABOSS99999', href: 'https://github.com/ODABOSS99999' },
   { label: 'Instagram', handle: '@mcgowen_media', href: 'https://www.instagram.com/mcgowen_media/' },
+  {
+    label: 'Website source',
+    handle: 'mcgowen-project-hub',
+    href: 'https://github.com/ODABOSS99999/mcgowen-project-hub',
+  },
 ]
 
 export function SiteFooter() {
@@ -13,9 +18,9 @@ export function SiteFooter() {
         <h2 id="contact-heading" className="font-serif text-5xl leading-none tracking-tight md:text-7xl">
           Find me <span className="italic text-[#8fa3ff]">online.</span>
         </h2>
-        <ul className="mt-12 grid border-t border-background/20 md:grid-cols-2">
+        <ul className="mt-12 grid border-t border-background/20 md:grid-cols-3">
           {links.map((link) => (
-            <li key={link.label} className="border-b border-background/20 md:odd:border-r">
+            <li key={link.label} className="border-b border-background/20 md:border-r md:last:border-r-0">
               <a
                 href={link.href}
                 target="_blank"
